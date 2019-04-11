@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VoiceTuner</string>
+    <string name="iniciar_treino">Iniciar Treino!!</string>
+    <string name="execute_seu_treino">Execute seu Treino</string>
+    <string name="parar">Parar</string>
+    <string name="excluir">Excluir</string>
+    <string name="avaliar">Avaliar</string>
+    <string name="reproduzir">Reproduzir</string>
+    <string name="salvar"> Salvar</string>
+    <string name="Reproduzir_exemplo">Reproduzir Exemplo </string>
+    <string name="selecione_seu_treino">Selecione seu Treino</string>
+    <string name="enviar">enviar</string>
+    <string name="text_login">Login</string>
+    <string name="text_not_member">No account yet? Create one</string>
+</resources>

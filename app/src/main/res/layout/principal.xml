@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCadExercicio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|center"
+            android:layout_weight="1"
+            android:text="Criar Exercício"
+            android:onClick="cadastraExercicio"/>
+
+        <Button
+            android:id="@+id/btnTreino"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Iniciar Treino"
+            android:onClick="treino"/>
+
+        <Button
+            android:id="@+id/btnResultados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Todos os Resultados"
+            android:onClick="Resultados"/>
+
+        <Button
+            android:id="@+id/btnResultadosPorExercicio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Resultados por Treino"
+            android:onClick="ResultadosPorExercicio"/>
+
+        <Button
+            android:id="@+id/btnRemocao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Remover Exercício/Resultado"
+            android:onClick="Remover"/>
+    </LinearLayout>
+
+</LinearLayout>
